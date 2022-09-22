@@ -1,1 +1,1 @@
-A resume made in Bootstrap.
+# A professional resume crafted in Bootstrap
