@@ -4,16 +4,16 @@ import { currentTime } from './script.js'
 document.querySelector('#app').innerHTML = `
 <div class="row justify-content-center bg-info p-0 ">
     <div class="container main text-center justify-content-center">
-        <div class="jumbotron jumbotron-fluid rounded m-5 pt-5 text-white bg-primary">
+    <div class="alert alert-success mx-5 mt-1 mb-3 border-success" role="alert">
+        <p>This resume was created using Bootstrap 4!</p>
+    </div>
+        <div class="jumbotron jumbotron-fluid rounded mx-5 mb-5 mt-2 pt-5 text-white bg-primary">
         <div class="container">
             <h1 class="display-5">Adam M. Vaughn</h1>
             <h2 class="display-5 pb-5">Full-Stack Developer | Embedded Systems Engineer</h2>
             <p class="lead pt-5 ">"Automating a better tomorrow"</p>
         </div>
         </div>
-            <div class="alert alert-success m-5" role="alert">
-                <p>This resume was created using Bootstrap 4!</p>
-            </div>
             <h1 class="bg-info text-white pb-2  mx-5 mb-1">My Skills</h1>
             <ul class="list-group  mx-5 mb-5">
                 <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
@@ -32,10 +32,10 @@ document.querySelector('#app').innerHTML = `
                 <h1 class="bg-info  text-white mx-5 mb-1">My Experience</h1>
                 <div class="container justify-content-center pt-0  mt-0">          
                 <div class="row">
-                <div class="col-md-4 mx-">
-                                <div class="card p-0 mx-4 mt-1 mb-3">
-                                <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                    <div class="card-body">
+                <div class="col-md-4 p-0">
+                                <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                <img src="./RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top" alt="A squirrel on my head"/>
+                                    <div class="card-body border-top border-success">
                                     <h5 >AMV Embedded Systems</h5>
                                     <p>Lorem Ipsum.</p>
                                         <a href="#" class="btn btn-primary">Click Me!</a>
@@ -43,10 +43,10 @@ document.querySelector('#app').innerHTML = `
                                         </div>
                                         </div>
 
-                                        <div class="col-md-4 mx">
-                                        <div class="card p-0 mx-4 mt-1 mb-3">
-                            <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                            <div class="card-body">
+                                        <div class="col-md-4 p-0">
+                                        <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                            <img src="./innovate-birmingham-logo.jpg" class="card-img-top" alt="A squirrel on my head"/>
+                            <div class="card-body border-top border-success">
                                 <h5 >AMV Embedded Systems</h5>
                                 <p>Lorem Ipsum.</p>
                                 <a href="#" class="btn btn-primary">Click Me!</a>
@@ -54,10 +54,10 @@ document.querySelector('#app').innerHTML = `
                                 </div>
                                 </div>
 
-                                <div class="col-md-4 mx">
-                                <div class="card p-0 mx-4 mt-1 mb-3">
-                                <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                <div class="card-body">
+                                <div class="col-md-4 p-0">
+                                <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                <img src="./logo.png " class="card-img-top" alt="A squirrel on my head"/>
+                                <div class="card-body border-top border-success">
                                 <h5 >AMV Embedded Systems</h5>
                                 <p>Lorem Ipsum. </p>
                                 <a href="#" class="btn btn-primary">Click Me!</a>
@@ -67,10 +67,10 @@ document.querySelector('#app').innerHTML = `
                                 </div>
 
                                 <div class="row">
-                                <div class="col-md-4 mx">
-                                <div class="card p-0 mx-4 mt-1 mb-3">
-                                    <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                    <div class="card-body">
+                                <div class="col-md-4 p-0">
+                                <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                    <img src="./512x512bb-40407385.jpeg" class="card-img-top" alt="A squirrel on my head"/>
+                                    <div class="card-body border-top border-success">
                                     <h5 >AMV Embedded Systems</h5>
                                     <p>Lorem Ipsum. </p>
                                     <a href="#" class="btn btn-primary">Click Me!</a>
@@ -78,10 +78,10 @@ document.querySelector('#app').innerHTML = `
                                     </div>
                                     </div>
 
-                                    <div class="col-md-4 mx">
-                                    <div class="card p-0 mx-4 mt-1 mb-3">
-                                    <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                    <div class="card-body">
+                                    <div class="col-md-4 p-0">
+                                    <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                    <img src="./raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top" alt="A squirrel on my head"/>
+                                    <div class="card-body border-top border-success">
                                     <h5 >AMV Embedded Systems</h5>
                                     <p>Lorem Ipsum. </p>
                                     <a href="#" class="btn btn-primary">Click Me!</a>
@@ -89,10 +89,10 @@ document.querySelector('#app').innerHTML = `
                                     </div>
                                     </div>
 
-                                    <div class="col-md-4 mx">
-                                    <div class="card p-0 mx-4 mt-1 mb-3">
-                                            <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                            <div class="card-body">
+                                    <div class="col-md-4 p-0">
+                                    <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                            <img src="./vuelogo.png" class="card-img-top" alt="A squirrel on my head"/>
+                                            <div class="card-body border-top border-success">
                                             <h5 >AMV Embedded Systems</h5>
                                             <p>Lorem Ipsum. </p>
                                             <a href="#" class="btn btn-primary">Click Me!</a>
@@ -102,10 +102,10 @@ document.querySelector('#app').innerHTML = `
                                             </div>
 
                                             <div class="row">
-                                            <div class="col-md-4 mx">
-                                            <div class="card p-0 mx-4 mt-1 mb-3">
-                                            <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                            <div class="card-body">
+                                            <div class="col-md-4 p-0">
+                                            <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                            <img src="./1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top" alt="A squirrel on my head"/>
+                                            <div class="card-body border-top border-success">
                                             <h5 >AMV Embedded Systems</h5>
                                             <p>Lorem Ipsum. </p>
                                             <a href="#" class="btn btn-primary">Click Me!</a>
@@ -113,10 +113,10 @@ document.querySelector('#app').innerHTML = `
                                             </div>
                                             </div>
 
-                                            <div class="col-md-4 mx">
-                                                <div class="card p-0 mx-4 mt-1 mb-3">
-                                                <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                                <div class="card-body">
+                                            <div class="col-md-4 p-0">
+                                                <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                                <img src="./Mix_color_5__dwg-1024-3202780424.png" class="card-img-top" alt="A squirrel on my head"/>
+                                                <div class="card-body border-top border-success">
                                                 <h5 >AMV Embedded Systems</h5>
                                                 <p>Lorem Ipsum. </p>
                                                 <a href="#" class="btn btn-primary">Click Me!</a>
@@ -124,10 +124,10 @@ document.querySelector('#app').innerHTML = `
                                                 </div>
                                                 </div>
 
-                                            <div class="col-md-4 mx">
-                                                <div class="card p-0 mx-4 mt-1 mb-3">
-                                                <img src="./headshot.jpg" class="card-img-top" alt="A squirrel on my head"/>
-                                                <div class="card-body">
+                                            <div class="col-md-4 p-0">
+                                                <div class="card p-0 mx-5 mt-1 mb-3 border-success">
+                                                <img src="./CISCO-example-560868577.png" class="card-img-top" alt="A squirrel on my head"/>
+                                                <div class="card-body border-top border-success">
                                                 <h5 >AMV Embedded Systems</h5>
                                                 <p>Lorem Ipsum. </p>
                                                 <a href="#" class="btn btn-primary">Click Me!</a>
