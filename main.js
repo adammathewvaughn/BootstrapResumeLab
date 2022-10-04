@@ -1,4 +1,4 @@
-
+// import "./scss/custom.scss"
 import "./style.css"
 import { currentTime } from './script.js'
 document.querySelector('#app').innerHTML = `
@@ -7,14 +7,14 @@ document.querySelector('#app').innerHTML = `
     <div class="alert alert-success mx-5 mt-1 mb-3 border-success" role="alert">
         <p>This resume was created using Bootstrap 4!</p>
     </div>
-        <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-primary">
-        <div class="container bg-info border border-dark py-5 px-0 mx-0">
+        <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-$indigo">
+        <div class="container bg-info border border-dark rounded py-5 px-0 mx-0">
             <h1 class="display-5 mb-0 bg-info">Adam M. Vaughn</h1>
             <h2 class="display-5 mb-0 pb-5 bg-info">Full-Stack Developer | Embedded Systems Engineer</h2>
             <p class="lead pt-5 m-0 bg-info p-0">"Automating a better tomorrow"</p>
         </div>
         </div>
-            <h1 class="bg-info border border-dark text-white  mx-5 mb-1">My Skills</h1>
+            <h1 class="bg-info border border-dark rounded text-white  mx-5 mb-1">My Skills</h1>
             <ul class="list-group  mx-5 mb-5">
                 <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML = `
                 </li>
             </ul>
 
-                <h1 class="bg-info border border-dark text-white mx-5 mb-1">My Experience</h1>
+                <h1 class="bg-info border border-dark rounded text-white mx-5 mb-1">My Experience</h1>
                 <div class="container justify-content-center pt-0  mt-0">          
                 <div class="row">
                 
@@ -45,7 +45,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 
                 <div class="col-md-4 p-0">
-                <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
+                <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
                 <img src="./logo.png " class="card-img-top border border-dark" alt="A squirrel on my head"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >AMV Embedded Systems</h5>
@@ -56,7 +56,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 
                 <div class="col-md-4 p-0">
-                <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
+                <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
                 <img src="./RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >RISC-V Architecture</h5>
