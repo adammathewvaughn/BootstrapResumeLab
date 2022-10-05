@@ -7,7 +7,7 @@ document.querySelector('#app').innerHTML = `
     <div class="alert alert-success mx-5 mt-1 mb-3 border-success" role="alert">
         <p>This resume was created using Bootstrap 4!</p>
     </div>
-        <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-$indigo">
+        <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-primary">
         <div class="container bg-info border border-dark rounded py-5 px-0 mx-0">
             <h1 class="display-5 mb-0 bg-info">Adam M. Vaughn</h1>
             <h2 class="display-5 mb-0 pb-5 bg-info">Full-Stack Developer | Embedded Systems Engineer</h2>
@@ -35,33 +35,33 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                <img src="./innovate-birmingham-logo.jpg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/innovate-birmingham-logo.jpg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >Innovate Birmingham </h5>
                 <p>Lorem Ipsum.</p>
-                <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                <a href="https://github.com/adammathewvaughn?tab=repositories"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                 </div>
                 </div>
                 </div>
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./logo.png " class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/logo.png " class="card-img-top border border-dark" alt="A squirrel on my head"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >AMV Embedded Systems</h5>
                 <p>Lorem Ipsum. </p>
-                <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                <a href="https://adammathewvaughn.com"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                 </div>
                 </div>
                 </div>
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >RISC-V Architecture</h5>
                 <p>Lorem Ipsum.</p>
-                <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                <a href="https://riscv.org"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                 </div>
                 </div>
                 </div>
@@ -70,33 +70,33 @@ document.querySelector('#app').innerHTML = `
                                 <div class="row">
                                 <div class="col-md-4 p-0">
                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./512x512bb-40407385.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                    <img src="./assets/512x512bb-40407385.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Python Programming</h5>
                                     <p>Lorem Ipsum. </p>
-                                    <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                    <a href="https://github.com/adammathewvaughn/ib_python_course"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                     </div>
                                     </div>
                                     </div>
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                    <img src="./assets/raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Raspberry Pi</h5>
                                     <p>Lorem Ipsum. </p>
-                                    <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                    <a href="https://www.raspberrypi.com"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                     </div>
                                     </div>
                                     </div>
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./vuelogo.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                            <img src="./assets/vuelogo.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5 >VueJS</h5>
                                             <p>Lorem Ipsum. </p>
-                                            <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                            <a href="https://vuejs.org"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                             </div>
                                             </div>
                                             </div>
@@ -105,33 +105,33 @@ document.querySelector('#app').innerHTML = `
                                             <div class="row">
                                             <div class="col-md-4 p-0">
                                             <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                            <img src="./assets/1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5>Bash Scripting</h5>
                                             <p>Lorem Ipsum. </p>
-                                            <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                            <a href="https://github.com/adammathewvaughn/Bash"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                             </div>
                                             </div>
                                             </div>
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                                <img src="./Mix_color_5__dwg-1024-3202780424.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                                <img src="./assets/Mix_color_5__dwg-1024-3202780424.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                                 <div class="card-body border-top border-dark bg-info text-white">
                                                 <h5 >Database Management</h5>
                                                 <p>Lorem Ipsum. </p>
-                                                <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                                <a href="https://adammathewvaughn.com"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                                 </div>
                                                 </div>
                                                 </div>
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border border-dark">
-                                                <img src="./CISCO-example-560868577.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                                <img src="./assets/CISCO-example-560868577.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
                                                 <div class="card-body bg-info border-top border-dark text-white ">
                                                 <h5 >Cisco Network Admin.</h5>
                                                 <p>Lorem Ipsum. </p>
-                                                <a href="#" class="btn btn-primary border border-dark">Click Me!</a>
+                                                <a href="https://adammathewvaughn.com"  target="_blank" rel="noopener noreferrer" class="btn btn-primary border border-dark">Click Me!</a>
                                                 </div>
                                                 </div>
                                                 </div>
