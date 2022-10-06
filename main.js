@@ -14,21 +14,33 @@ document.querySelector('#app').innerHTML = `
             <p class="lead pt-5 m-0 bg-info p-0">"Automating a better tomorrow"</p>
         </div>
         </div>
-            <h1 class="bg-info border border-dark rounded text-white  mx-5 mb-1">My Skills</h1>
-            <ul class="list-group  mx-5 mb-5">
+        <h1 class="bg-info border border-dark rounded text-white  mx-5 mb-1">My Skills</h1>
+        <div class="container  mx-5 mb-3 p-0 text-center">
+            <ul class="list-group ">
                 <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
-                <span class="badge badge-primary badge-pill">75%</span></li>
+                </li>
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">CSS
-                <span class="badge badge-primary badge-pill">79%</span></li>
+                </li>
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
-                <span class="badge badge-primary badge-pill">85%</span>
                 </li>
                 <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript
-                <span class="badge badge-primary badge-pill">75%</span>
+               
                 </li>
             </ul>
-
+            <ul class="list-group ">
+                <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
+                <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
+                </li>
+                <li class="list-group-item d-flex rounded justify-content-between align-items-center">CSS
+                </li>
+                <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
+                </li>
+                <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript
+               
+                </li>
+            </ul>
+    </div>
                 <h1 class="bg-info border border-dark rounded text-white mx-5 mb-1">My Experience</h1>
                 <div class="container justify-content-center pt-0  mt-0">          
                 <div class="row">
