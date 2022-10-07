@@ -15,8 +15,8 @@ document.querySelector('#app').innerHTML = `
         </div>
         </div>
         <h1 class="bg-info border border-dark rounded text-white  mx-5 mb-1">My Skills</h1>
-        <div class="container  mx-5 mb-3 p-0 text-center">
-            <ul class="list-group ">
+        <div class="d-flex flex-column justify-content-around mx-5  text-center">
+            <ul class="d-flex flex-row ">
                 <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
                 </li>
@@ -24,11 +24,10 @@ document.querySelector('#app').innerHTML = `
                 </li>
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
                 </li>
-                <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript
-               
+                <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript               
                 </li>
             </ul>
-            <ul class="list-group ">
+            <ul class="d-flex flex-row ">
                 <!--tips: add .list-group-flush to the .list-group to remove some borders and rounded corners-->
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
                 </li>
@@ -37,7 +36,6 @@ document.querySelector('#app').innerHTML = `
                 <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
                 </li>
                 <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript
-               
                 </li>
             </ul>
     </div>
@@ -47,7 +45,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                <img src="./assets/innovate-birmingham-logo.jpg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/innovate-birmingham-logo.jpg" class="card-img-top border border-dark" alt="Innovate Birmingham Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >Innovate Birmingham </h5>
                 <p>Lorem Ipsum.</p>
@@ -58,7 +56,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./assets/logo.png " class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/logo.png " class="card-img-top border border-dark" alt="AMV Embedded Systems Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >AMV Embedded Systems</h5>
                 <p>Lorem Ipsum. </p>
@@ -69,7 +67,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./assets/RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                <img src="./assets/RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="Risc-V Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >RISC-V Architecture</h5>
                 <p>Lorem Ipsum.</p>
@@ -82,7 +80,7 @@ document.querySelector('#app').innerHTML = `
                                 <div class="row">
                                 <div class="col-md-4 p-0">
                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./assets/512x512bb-40407385.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                    <img src="./assets/512x512bb-40407385.jpeg" class="card-img-top border border-dark" alt="Python Programming Language Logo"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Python Programming</h5>
                                     <p>Lorem Ipsum. </p>
@@ -93,7 +91,7 @@ document.querySelector('#app').innerHTML = `
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./assets/raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                    <img src="./assets/raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top border border-dark" alt="Raspberry Pi Logo"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Raspberry Pi</h5>
                                     <p>Lorem Ipsum. </p>
@@ -104,7 +102,7 @@ document.querySelector('#app').innerHTML = `
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./assets/vuelogo.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                            <img src="./assets/vuelogo.png" class="card-img-top border border-dark" alt="VueJS Logo"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5 >VueJS</h5>
                                             <p>Lorem Ipsum. </p>
@@ -117,7 +115,7 @@ document.querySelector('#app').innerHTML = `
                                             <div class="row">
                                             <div class="col-md-4 p-0">
                                             <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./assets/1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                            <img src="./assets/1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top border border-dark" alt="Bash Shell Logo"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5>Bash Scripting</h5>
                                             <p>Lorem Ipsum. </p>
@@ -128,7 +126,7 @@ document.querySelector('#app').innerHTML = `
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                                <img src="./assets/Mix_color_5__dwg-1024-3202780424.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                                <img src="./assets/Mix_color_5__dwg-1024-3202780424.png" class="card-img-top border border-dark" alt="Database Symbol"/>
                                                 <div class="card-body border-top border-dark bg-info text-white">
                                                 <h5 >Database Management</h5>
                                                 <p>Lorem Ipsum. </p>
@@ -139,7 +137,7 @@ document.querySelector('#app').innerHTML = `
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border border-dark">
-                                                <img src="./assets/CISCO-example-560868577.png" class="card-img-top border border-dark" alt="A squirrel on my head"/>
+                                                <img src="./assets/CISCO-example-560868577.png" class="card-img-top border border-dark" alt="Cisco Network Topology"/>
                                                 <div class="card-body bg-info border-top border-dark text-white ">
                                                 <h5 >Cisco Network Admin.</h5>
                                                 <p>Lorem Ipsum. </p>
