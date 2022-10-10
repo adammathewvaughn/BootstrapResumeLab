@@ -1,6 +1,17 @@
 // import "./scss/custom.scss"
-import "./style.css"
 import { currentTime } from './script.js'
+import "./style.css"
+import innovate from "./assets/innovate-birmingham-logo.jpg"
+import logo from "./assets/logo.png"
+import risc from "./assets/RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png"
+import python from "./assets/512x512bb-40407385.jpeg" 
+import rpi from "./assets/raspberry-pi-logo-HD1-4225683513.jpeg"
+import vue from "./assets/vuelogo.png"
+import bash from "./assets/1800px-gnu_bash_logo-1024x705-1556253469.png"
+import db from "./assets/Mix_color_5__dwg-1024-3202780424.png"
+import cisco from "./assets/CISCO-example-560868577.png"
+
+
 document.querySelector('#app').innerHTML = `
 <div class="row justify-content-center bg-info p-0 border-success">
     <div class="container main border border-dark text-center justify-content-center">
@@ -15,25 +26,55 @@ document.querySelector('#app').innerHTML = `
         </div>
         </div>
         <h1 class="bg-info border border-dark rounded text-white  mx-5 mb-1">My Skills</h1>
-        <div class="d-flex flex-column justify-content-around mx-5  text-center">
-            <ul class="d-flex flex-row ">
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
+        <div class="d-flex flex-row justify-content-between mx-5 p-0 text-center">
+            <ul class="d-flex flex-column mx-0 p-0 justify-content-evenly ">
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">Vanilla JavaScript
                 </li>
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">CSS
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">CSS
                 </li>
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">React
                 </li>
-                <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript               
+                <li class="list-group-item m-0 p-0  d-flex rounded justify-content-center align-items-center">TypeScript               
                 </li>
             </ul>
-            <ul class="d-flex flex-row justify-content-between ">
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">Vanilla JavaScript
+            <ul class="d-flex flex-column mx-0 p-0 justify-content-evenly ">
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">Vanilla JavaScript
                 </li>
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">CSS
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">CSS
                 </li>
-                <li class="list-group-item d-flex rounded justify-content-between align-items-center">React
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">React
                 </li>
-                <li class="list-group-item  d-flex rounded justify-content-between align-items-center">TypeScript
+                <li class="list-group-item m-0 p-0  d-flex rounded justify-content-center align-items-center">TypeScript
+                </li>
+            </ul>
+            <ul class="d-flex flex-column mx-0 justify-content-evenly ">
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">Vanilla JavaScript
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">CSS
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">React
+                </li>
+                <li class="list-group-item m-0 p-0  d-flex rounded justify-content-center align-items-center">TypeScript
+                </li>
+            </ul>
+            <ul class="d-flex flex-column mx-0 justify-content-evenly ">
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">Vanilla JavaScript
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">CSS
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">React
+                </li>
+                <li class="list-group-item m-0 p-0  d-flex rounded justify-content-center align-items-center">TypeScript
+                </li>
+            </ul>
+            <ul class="d-flex flex-column mx-0 justify-content-evenly ">
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">Vanilla JavaScript
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">CSS
+                </li>
+                <li class="list-group-item m-0 p-0 d-flex rounded justify-content-center align-items-center">React
+                </li>
+                <li class="list-group-item m-0 p-0  d-flex rounded justify-content-center align-items-center">TypeScript
                 </li>
             </ul>
     </div>
@@ -43,7 +84,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                <img src="./assets/innovate-birmingham-logo.jpg" class="card-img-top border border-dark" alt="Innovate Birmingham Logo"/>
+                <img src=${innovate} class="card-img-top border border-dark" alt="Innovate Birmingham Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >Innovate Birmingham </h5>
                 <p>Full-Stack Development Bootcamp</p>
@@ -54,7 +95,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./assets/logo.png " class="card-img-top border border-dark" alt="AMV Embedded Systems Logo"/>
+                <img src=${logo} class="card-img-top border border-dark" alt="AMV Embedded Systems Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5>AMV Embedded Systems</h5>
                 <p class="mb-0 pb-0">AMV Embedded Systems</p>
@@ -66,7 +107,7 @@ document.querySelector('#app').innerHTML = `
                 
                 <div class="col-md-4 p-0">
                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark rounded">
-                <img src="./assets/RISCV_GlobalForum_2020_PromoGraphics_SchedIcon_bGR6MfG-444668996.png" class="card-img-top border border-dark" alt="Risc-V Logo"/>
+                <img src=${risc} class="card-img-top border border-dark" alt="Risc-V Logo"/>
                 <div class="card-body border-top border-dark bg-info text-white">
                 <h5 >RISC-V Architecture</h5>
                 <p>Reduced Instruction Set Computer Architecture</p>
@@ -79,7 +120,7 @@ document.querySelector('#app').innerHTML = `
                                 <div class="row">
                                 <div class="col-md-4 p-0">
                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./assets/512x512bb-40407385.jpeg" class="card-img-top border border-dark" alt="Python Programming Language Logo"/>
+                                    <img src=${python} class="card-img-top border border-dark" alt="Python Programming Language Logo"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Python Programming</h5>
                                     <p>"A high-level, general-purpose programming language"</p>
@@ -90,7 +131,7 @@ document.querySelector('#app').innerHTML = `
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                    <img src="./assets/raspberry-pi-logo-HD1-4225683513.jpeg" class="card-img-top border border-dark" alt="Raspberry Pi Logo"/>
+                                    <img src=${rpi} class="card-img-top border border-dark" alt="Raspberry Pi Logo"/>
                                     <div class="card-body border-top border-dark bg-info text-white">
                                     <h5 >Raspberry Pi</h5>
                                     <p>"The Big Computer That Fits In Your Hand"</p>
@@ -101,7 +142,7 @@ document.querySelector('#app').innerHTML = `
 
                                     <div class="col-md-4 p-0">
                                     <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./assets/vuelogo.png" class="card-img-top border border-dark" alt="VueJS Logo"/>
+                                            <img src=${vue} class="card-img-top border border-dark" alt="VueJS Logo"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5 >VueJS</h5>
                                             <p>"The Progressive JavaScript Framework"</p>
@@ -114,7 +155,7 @@ document.querySelector('#app').innerHTML = `
                                             <div class="row">
                                             <div class="col-md-4 p-0">
                                             <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                            <img src="./assets/1800px-gnu_bash_logo-1024x705-1556253469.png" class="card-img-top border border-dark" alt="Bash Shell Logo"/>
+                                            <img src=${bash} class="card-img-top border border-dark" alt="Bash Shell Logo"/>
                                             <div class="card-body border-top border-dark bg-info text-white">
                                             <h5>Bash Scripting</h5>
                                             <p>"The GNU Project's Bourne Again SHell"</p>
@@ -125,7 +166,7 @@ document.querySelector('#app').innerHTML = `
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border-dark">
-                                                <img src="./assets/Mix_color_5__dwg-1024-3202780424.png" class="card-img-top border border-dark" alt="Database Symbol"/>
+                                                <img src=${db} class="card-img-top border border-dark" alt="Database Symbol"/>
                                                 <div class="card-body border-top border-dark bg-info text-white">
                                                 <h5 >Database Management</h5>
                                                 <p>Database Management And SQL Programming</p>
@@ -136,7 +177,7 @@ document.querySelector('#app').innerHTML = `
 
                                             <div class="col-md-4 p-0">
                                                 <div class="card p-0 mx-5 mt-1 mb-4 border border-dark">
-                                                <img src="./assets/CISCO-example-560868577.png" class="card-img-top border border-dark" alt="Cisco Network Topology"/>
+                                                <img src=${cisco} class="card-img-top border border-dark" alt="Cisco Network Topology"/>
                                                 <div class="card-body bg-info border-top border-dark text-white ">
                                                 <h5 >Cisco Network Admin.</h5>
                                                 <p>Cisco Networking Concepts And Methodologies</p>
@@ -154,8 +195,6 @@ document.querySelector('#app').innerHTML = `
                                                 </div>
                                                 </div>
                                                 </div>
-
                                     </div>                                   
                                     ` 
-
                                     document.getElementById("time").innerHTML = `Birmingham, AL &copy; ${currentTime()}`;
