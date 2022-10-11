@@ -17,10 +17,10 @@ import sass from "./assets/sass.png"
 document.querySelector('#app').innerHTML = `
 <div class="row justify-content-center bg-info p-1 mb-4 mt-0 border-success">
     <div class="container main border border-dark text-center justify-content-center">
-    <div class="alert alert-success mx-5 p-0 mt-1 mb-3 border-success" role="alert">
-        <p class="my-0 py-0 ">This resume was created using</p>
-        <h5>Bootstrap 4, SASS, and ViteJS!</h5>
-        <span> <img src="${bootstrap}"/> <img src="${sass}" class="ml-4 pl-4"/> <img src="${vite}" class="pl-3 ml-5 pr-0 mr-0"/> </span>
+    <div class="alert alert-info bg-info mx-5 pt-0 pb-2 mt-1 mb-3 border-success" role="alert">
+        <p class=" bg-info my-0 py-0 ">This resume was created using</p>
+        <h5 class="bg-info">Bootstrap 4, SASS, and ViteJS!</h5>
+        <span class="bg-info my-0 pt-0 "> <img src="${bootstrap}" class="bg-info"/> <img src="${sass}" class="ml-4 pl-4" class="bg-info" /> <img src="${vite}" class="pl-3 ml-5 pr-0 mr-0 bg-info "/> </span>
     </div>
         <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-primary">
         <div class="container bg-info border border-dark rounded py-5 px-0 mx-0">
