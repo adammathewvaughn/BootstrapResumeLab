@@ -10,14 +10,17 @@ import vue from "./assets/vuelogo.png"
 import bash from "./assets/1800px-gnu_bash_logo-1024x705-1556253469.png"
 import db from "./assets/Mix_color_5__dwg-1024-3202780424.png"
 import cisco from "./assets/CISCO-example-560868577.png"
-
+import vite from "./assets/vite.svg"
+import bootstrap from "./assets/bootstrap-logo-shadow.png"
+import sass from "./assets/sass.png"
 
 document.querySelector('#app').innerHTML = `
-<div class="row justify-content-center bg-info p-0 border-success">
+<div class="row justify-content-center bg-info p-1 mb-4 mt-0 border-success">
     <div class="container main border border-dark text-center justify-content-center">
-    <div class="alert alert-success mx-5 mt-1 mb-3 border-success" role="alert">
-        <p class="mb-0 pb-0 ">This resume was created using</p>
+    <div class="alert alert-success mx-5 p-0 mt-1 mb-3 border-success" role="alert">
+        <p class="my-0 py-0 ">This resume was created using</p>
         <h5>Bootstrap 4, SASS, and ViteJS!</h5>
+        <span> <img src="${bootstrap}"/> <img src="${sass}" class="ml-4 pl-4"/> <img src="${vite}" class="pl-3 ml-5 pr-0 mr-0"/> </span>
     </div>
         <div class="jumbotron jumbotron-fluid border border-dark rounded mx-5 mb-5 mt-2 pt-5 text-white bg-primary">
         <div class="container bg-info border border-dark rounded py-5 px-0 mx-0">
