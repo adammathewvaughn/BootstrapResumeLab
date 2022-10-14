@@ -1,7 +1,19 @@
-
-
 .main{
   text-shadow: .5px .5px 1px #000000;
   background-color: rgb(231, 229, 162);
 } 
+
+.card:hover {
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+/* #headshot {
+  max-width: 25rem;
+  max-height: 25rem;
+} */
+
 
